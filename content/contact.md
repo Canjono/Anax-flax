@@ -1,4 +1,4 @@
-Contact
+Kontakt
 ==============================================
 
-Any questions about this site can be emailed to [Mikael Roos](https://mikaelroos.se) on (mos@dbwebb.se).
+Frågor om den här webbplatsen kan mejlas till Michael Hedlund på mihe16@student.bth.se.

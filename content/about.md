@@ -1,10 +1,11 @@
-About this site
+Om sidan
 ==============================================
 
-The primary focus of this site is to:
+Den här webbplatsen är en del av kursen Teknisk webbdesign och användbarhet, och är till för att jag som webbprogrammerare
+ska få prova på olika tekniker som underlättar skapandet av en korrekt och användarvänlig webbplats.
 
-* To be used in teaching the [dbwebb course design](http://dbwebb.se/design).
+Det finns också en [redovisnings-sida](report/) där jag lägger in mina reflektioner kring varje kursmoment.
 
-The source for this site is available on GitHub in [canax/anax-flat](git@github.com:canax/anax-flat.git).
+Länk till min Github-sida: [GitHub](https://github.com/Canjono/Anax-flax)
 
-This site is produced by [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
+![Design](../htdocs/img/design.jpg)
