@@ -14,7 +14,7 @@ views:
 ...
 Om mig
 ===============================
-<img src="../htdocs/img/me.jpg" alt="Jag" style="width: 200px; float: left; padding: 0.5em 0.5em 0.5em 0;">
+<img class="img-me" src="../htdocs/img/me.jpg" alt="Jag">
 
 
 
