@@ -1,5 +1,5 @@
 ---
-titleBreadcrumb: Home
+titleBreadcrumb: Hem
 
 views:
     byline:

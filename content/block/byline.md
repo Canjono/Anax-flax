@@ -1,5 +1,5 @@
 <div markdown=1>
-<img src="../htdocs/img/me.jpg" alt="Jag">
+<img class="img-byline" src="../htdocs/img/me.jpg" alt="Jag">
 
 Michael Hedlund
 
