@@ -27,6 +27,25 @@ return [
                 "mark-if-parent" => true,
             ],
 
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser av sidor"),
+                "mark-if-parent" => true,
+            ],
+
+            "theme" => [
+                "text"  => t("Tema"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Olika teman")
+            ],
+
+            "theme-selector" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Välj tema")
+            ],
+            
             "grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid"),
@@ -38,6 +57,7 @@ return [
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typografi-sida")
             ],
+
 
             "about" => [
                 "text"  => t("Om"),
@@ -70,6 +90,25 @@ return [
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar av kmom-moment"),
                 "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser av sidor"),
+                "mark-if-parent" => true,
+            ],
+
+            "theme" => [
+                "text"  => t("Tema"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Olika teman")
+            ],
+
+            "theme-selector" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Välj tema")
             ],
 
             "grid" => [

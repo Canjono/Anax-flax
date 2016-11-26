@@ -25,7 +25,7 @@ return [
             //"stylesheets" => ["css/style.min.css"],
             "stylesheets" => [
                 //...
-                "css/style.min.css",
+                "css/default1.min.css",
                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
             ],
             "styleInline" => null,
@@ -42,6 +42,7 @@ return [
      * Add default views to always include.
      */
     "views" => [
+        /*
         [
             "region" => "header",
             "template" => "default/image",
@@ -51,15 +52,15 @@ return [
                 "alt" => "Logo",
             ],
             "sort" => 1
-        ],
+        ], */
         [
             "region" => "header",
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Anax Flat",
-                "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
-                "siteLogoTextIconAlt" => "Small logo",
+                "siteLogoText"  => "Michael",
+                "siteLogoTextIcon" => null, //"img/favicon/favicon_40x40.png",
+                "siteLogoTextIconAlt" => null, //"Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
                 "siteTitle"     => null, //"Anax PHP framework",
