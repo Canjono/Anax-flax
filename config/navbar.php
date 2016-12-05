@@ -17,7 +17,7 @@ return [
             "home" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create(""),
-                "title" => t("Första-sidan")
+                "title" => t("Startsidan")
             ],
 
             "report" => [
@@ -44,6 +44,19 @@ return [
                 "text"  => t("Temaväljare"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("Välj tema")
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("En blogg"),
+                "mark-if-parent" => true,
+            ],
+
+            "images" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder i olika storlekar och former")
             ],
             
             "grid" => [
@@ -82,7 +95,7 @@ return [
             "home" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create(""),
-                "title" => t("Första-sidan")
+                "title" => t("Startsidan")
             ],
 
             "report" => [
@@ -109,6 +122,19 @@ return [
                 "text"  => t("Temaväljare"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("Välj tema")
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("En blogg"),
+                "mark-if-parent" => true,
+            ],
+
+            "images" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder i olika storlekar och former")
             ],
 
             "grid" => [
