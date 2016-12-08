@@ -58,6 +58,18 @@ return [
                 "url"   => $this->di->get("url")->create("images"),
                 "title" => t("Bilder i olika storlekar och former")
             ],
+
+            "design-principle" => [
+                "text"  => t("Designprinciper"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Olika teman utifrån olika designprinciper")
+            ],
+
+            "design-elements" => [
+                "text"  => t("Designelement"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("Olika teman med olika designelement")
+            ],
             
             "grid" => [
                 "text"  => t("Grid"),
@@ -135,6 +147,18 @@ return [
                 "text"  => t("Bilder"),
                 "url"   => $this->di->get("url")->create("images"),
                 "title" => t("Bilder i olika storlekar och former")
+            ],
+
+            "design-principle" => [
+                "text"  => t("Designprinciper"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Olika teman utifrån olika designprinciper")
+            ],
+
+            "design-elements" => [
+                "text"  => t("Designelement"),
+                "url"   => $this->di->get("url")->create("design-elements"),
+                "title" => t("Olika teman med olika designelement")
             ],
 
             "grid" => [

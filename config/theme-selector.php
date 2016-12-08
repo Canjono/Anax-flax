@@ -86,5 +86,34 @@ return [
                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
             ]
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "depth" => [
+            "title"     => "Gives depth to certain elements",
+            "class"     => "depth",
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "texture" => [
+            "title"     => "Light background gets some texture",
+            "class"     => "texture",
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "movement" => [
+            "title"     => "Animation brings movement to the site",
+            "class"     => "movement",
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
     ]
 ];
