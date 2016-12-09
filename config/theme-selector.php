@@ -115,5 +115,35 @@ return [
                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
             ]
         ],
+
+        "separator4" => "------------------------------------------------",
+
+        "centered" => [
+            "title"     => "Centered content and opacity",
+            "class"     => "theme1",
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "wide" => [
+            "title"     => "Stretches across the whole page, texture and gradient",
+            "class"     => "theme2",
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "christmas" => [
+            "title"     => "A few images for decoration and border lines",
+            "class"     => "theme3",
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
     ]
 ];
